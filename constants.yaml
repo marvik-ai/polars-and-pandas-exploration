@@ -1,0 +1,3 @@
+['East Village', 'Greenpoint', 'Upper East Side', 'Lower East Side', 'Upper West Side']
+['review_scores_cleanliness', 'review_scores_checkin', 'review_scores_communication', 'review_scores_location']
+LISTING_PATH = 'sources/listings.csv'

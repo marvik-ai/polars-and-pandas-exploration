@@ -1,0 +1,23 @@
+scores_list: ['review_scores_cleanliness',
+              'review_scores_checkin',
+              'review_scores_communication',
+              'review_scores_location'
+]
+
+desirable_neighboors: ['East Village',
+                        'Greenpoint',
+                        'Upper East Side',
+                        'Lower East Side',
+                        'Upper West Side'
+]
+columns_to_remove: ['source',
+                    'name',
+                    'description',
+                    'picture_url',
+                    'host_location',
+                    'host_about']
+
+listings_path: 'sources/listings.csv'
+reviews_path: 'sources/reviews.csv'
+sort_column_name: 'review_scores_value'
+matching_column: 'listing_id'
